@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./jquery.js"></script>
+    <script src="./popup2.js"></script>
+    
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="wenzi.css">
+  </head>
+  <style>
+    img {
+    width: 240px;
+    height: 240px;
+    }
+    .b {
+    margin: 0;
+    padding: 0;
+    }
+    #a {
+    width: 480px;/*2张图片的总宽度*/
+    height: 240px;
+    background-color: #000000;
+    margin: 20px auto;
+    overflow: hidden;/*超出的隐藏*/
+    border: 1px solid #f89996;
+    }
+    ul{
+    width: 1440px; /*6张图片的总宽度 放在一行*/
+    height: 240px;
+    list-style-type: none;
+    background-color: #000000;
+    }
+    ul>li {
+    float: left;
+    }
+  </style>
+  <body>
+    <div style="font-size: large;">Choose a favorite background color!</div>
+    <br>
+    <div id="buttonDiv"></div>
+    <img src="./images/jr15.gif" alt="图片丢失">
+    <img src="./images/bl10.gif" alt=" ">
+    <img src="./images/jl13.gif" alt="">
+    <img src="./images/nl2.gif" alt="">
+    <img src="./images/xw6.gif" alt="">
+    <br>
+    <div id="jiaran">Diana</div>
+    <div id="beila">Bella</div>
+    <div id="jiale">Carol</div>
+    <div id="nailin">Eileen</div>
+    <div id="xiangwan">Ava</div>
+    <br><br><br>
+    <div id="a" class="b">
+      <ul class="b">
+          <li class="b">
+              <img src="./images/bl10.gif" class="b">
+          </li >
+          <li class="b">
+              <img src="./images/jl13.gif" class="b">
+          </li >
+          <li class="b">
+              <img src="./images/xw7.gif" class="b">
+          </li>
+          <li class="b">
+              <img src="./images/jr10.gif" class="b">
+          </li>
+          <li class="b">
+              <img src="./images/nl2.gif" class="b">
+          </li>
+          <li class="b">
+            <img src="./images/nl3.gif" class="b">
+          </li>
+      </ul>
+    </div>
+    <script src="options.js"></script>
+  </body>
+</html>

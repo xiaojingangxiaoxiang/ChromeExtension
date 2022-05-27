@@ -1,0 +1,27 @@
+{
+  "name": "A-soul",
+  "description": "change backgroundcolor",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage", "activeTab", "scripting", "contextMenus","tabs"],
+  "action": {
+    "default_title": "hello",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./images/4.png",
+      "32": "./images/4.png",
+      "48": "./images/4.png",
+      "128": "./images/4.png"
+    }
+  },
+  "icons": {
+    "16": "./images/4.png",
+    "32": "./images/4.png",
+    "48": "./images/4.png",
+    "128": "./images/4.png"
+  },
+  "options_page": "options.html"
+}

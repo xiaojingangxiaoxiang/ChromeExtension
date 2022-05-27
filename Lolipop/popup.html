@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="./jquery.js"></script>
+    <script src="./popup1.js"></script>
+
+    <link rel="stylesheet" href="./1.0.css">
+    <link rel="stylesheet" href="button.css">
+  </head>
+  <style>
+    img {
+    width: 120px;
+    height: 120px;
+    }
+    .b {
+    margin: 0;
+    padding: 0;
+    }
+    #a {
+    width: 240px;/*2张图片的总宽度*/
+    height: 120px;
+    background-color: #000000;
+    margin: 5px auto;
+    overflow: hidden;/*超出的隐藏*/
+    border: 1px solid #f89996;
+    }
+    ul{
+    width: 720px; /*6张图片的总宽度 放在一行*/
+    height: 120px;
+    list-style-type: none;
+    background-color: #000000;
+    }
+    ul>li {
+    float: left;
+    }
+  </style>
+  <body>
+    <div style="font-size: medium;">click this button change background color!</div>
+    <button id="changeColor"></button>
+    <h1 id="greet" class="bc"> Write Tips: </h1>
+    <div id="a" class="b">
+      <ul class="b">
+          <li class="b">
+              <img src="./images/bl10.gif" class="b">
+          </li >
+          <li class="b">
+              <img src="./images/jl13.gif" class="b">
+          </li >
+          <li class="b">
+              <img src="./images/xw7.gif" class="b">
+          </li>
+          <li class="b">
+              <img src="./images/jr10.gif" class="b">
+          </li>
+          <li class="b">
+              <img src="./images/nl2.gif" class="b">
+          </li>
+          <li class="b">
+            <img src="./images/nl3.gif" class="b">
+          </li>
+      </ul>
+    </div>
+    <input type="text" id="name"> 
+    <script src="./popup.js"></script>
+  </body>
+</html>

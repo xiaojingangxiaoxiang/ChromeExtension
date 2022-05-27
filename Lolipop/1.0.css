@@ -1,0 +1,19 @@
+h1 {
+    color:#e53636;
+    font-family: sans-serif;
+    display: block;
+    line-height: 40px;
+}
+body {
+    text-align: center;
+}
+.bc {
+    height: 40px;
+    background-image: linear-gradient(to right,rgba(244, 95, 81, 0.868),rgba(209, 117, 117, 0.885));
+}
+.imgbgc {
+    background-color: #ef8b8bde;
+}
+input:hover {
+    color: #fe6767e1;
+}
